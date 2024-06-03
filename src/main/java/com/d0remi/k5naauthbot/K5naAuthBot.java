@@ -17,7 +17,7 @@ public class K5naAuthBot {
     public K5naAuthBot() throws LoginException {
 
         //Build shard manager
-        String token = "MTA4OTIyMzAzNjUzMzc1MTgyOA.GQsajt.NgmNWOhWvS_d1oTZ8hI_0SRrJ8y6snyP8-TmZI";
+        String token = "";
         DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(token);
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.playing("코나 서버"));
